@@ -3,7 +3,7 @@ import HeroSection from "./Components/Layout/HeroSection";
 
 function App() {
   return (
-    <div className="bg-backgroundDark w-[100%] h-[100vh%]">
+    <div className="bg-backgroundDark w-[100%] h-auto">
       <NavBar />
       <HeroSection />
     </div>

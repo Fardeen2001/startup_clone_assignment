@@ -31,7 +31,7 @@ const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false);
   return (
     <nav className="mx-auto container max-w-screen-xl px-22 py-12">
-      <div className="flex items-center justify-around font-sans text-white font-[500] text-[1.125rem] ">
+      <div className="flex items-center justify-around  text-white font-[500] text-[1.125rem] ">
         <a href={"/"} className="font-[700] text-[1.5rem]">
           Startup 3
         </a>
